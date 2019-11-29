@@ -15,4 +15,9 @@ public class SomeController {
     public String someHandle() {
         return "This is first jenkins deploy project";
     }
+
+    @RequestMapping("name")
+    public String nameHandle() {
+        return "zhang san";
+    }
 }
